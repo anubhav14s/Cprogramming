@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int age=32;
+    int age=45;
     int *ptr=&age;
     printf("Address of the variable is %u\n",ptr);
     printf("Address of the variable is %u\n",&age);
