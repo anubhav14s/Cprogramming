@@ -7,7 +7,7 @@ int main(){
     switch(metal){
         case 'g': printf("You have choosen gold\n");
         switch(cat){
-            case 1 : printf("price is 9000 ");
+            case 1 : printf("price is 5875 ");
                     break;
             case 2 : printf("price is 8700");
                     break;
