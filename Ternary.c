@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main (){
-    int n1,n2,n3,largest ;
-    scanf("%d %d %d",&n1,&n2,&n3);
-    largest = (n1 > n2) ? ((n1 > n3) ? n1 : n3) : ((n2 > n3) ? n2 : n3);
+    int num1,num2,num3,largest ;
+    scanf("%d %d %d",&num1,&num2,&num3);
+    largest = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
     printf("Largest number is %d\n", largest);
 
     return 0;
